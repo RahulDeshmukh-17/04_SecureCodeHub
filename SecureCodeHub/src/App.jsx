@@ -1,9 +1,10 @@
+import Cources from "./components/Cources"
 
 function App() {
 
   return (
     <>
-     <h1 className="bg-green-400 text-white">Hello rahul</h1>
+    <Cources Cname="Java Full Stack With DSA"/>
     </>
   )
 }
