@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-function Cources({Cname}) {
+function Cources() {
   return (
     <>
     <div className="bg-black flex justify-center">

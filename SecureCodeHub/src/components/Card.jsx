@@ -5,7 +5,7 @@ export default function Card({d1,d2,d3,Data,Cname,imgadd}) {
     <>
        <div className="min-w-60  overflow-hidden shadow-lg bg-white">
       <img
-        className="w-full h-48 object-cover rounded"
+        className="w-full h-56 object-cover rounded-2xl"
         src={imgadd}
         alt="Card image"
       />
