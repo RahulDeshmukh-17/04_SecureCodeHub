@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Card({d1,d2,d3,Data,Cname}) {
+export default function Card({d1,d2,d3,Data,Cname,imgadd}) {
   return (
     <>
-       <div className="max-w-sm  overflow-hidden shadow-lg bg-white">
+       <div className="min-w-60  overflow-hidden shadow-lg bg-white">
       <img
         className="w-full h-48 object-cover rounded"
-        src="https://res.cloudinary.com/dbyioi2qq/q_auto/v1678086754/static/daniel-korpai-bokiptpzdpk-unsplashjpg_1678086751_94913.jpg"
+        src={imgadd}
         alt="Card image"
       />
 
