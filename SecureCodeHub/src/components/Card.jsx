@@ -18,7 +18,7 @@ export default function Card({d1,d2,d3,Data,Cname,imgadd}) {
             <button className="p-3 text-xs mr-2 bg-blue-200 hover:bg-blue-500 text-blue-500 hover:text-white rounded">{d3}</button>
         </div>
         <p className="font-bold text-2xl">{Cname}</p>
-        <p className="text-gray-700 text-base text-base">
+        <p className="text-gray-700  text-base">
           {Data}
         </p>
       </div>
