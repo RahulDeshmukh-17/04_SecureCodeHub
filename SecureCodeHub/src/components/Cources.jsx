@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Keycource from "./Keycource";
+import Copt from "./Copt";
 
 function Cources() {
   return (
@@ -28,7 +29,9 @@ function Cources() {
       <Keycource/>
     </div>
     <div>
-      
+    <div className="flex justify-center items-center bg-black pb-48">
+          <Copt/>
+      </div>
     </div>
     </>
   );
