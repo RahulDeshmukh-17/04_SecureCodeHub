@@ -1,14 +1,15 @@
 import React from "react";
 import Card from "./Card";
+import Keycource from "./Keycource";
 
 function Cources() {
   return (
     <>
-    <div className="bg-black flex justify-center">
-    <div className="w-4/5 bg-white p-16 ">
+<div className="bg-black flex justify-center">
+    <div className="w-4/5 bg-white p-14 ">
     <div>
       <div className="text-center p-8" >
-        <p className="text-blue-400 text-center text-base font-sans p-5">
+        <p className="text-blue-400 text-center text-base font-bold p-5">
           TAKE A LOOK
         </p>
         <p className="text-4xl pb-6 font-sans font-bold">Some Related Cources</p>
@@ -22,6 +23,12 @@ function Cources() {
       </div>
     </div>
     </div>
+    </div>
+    <div className="flex justify-center bg-black">
+      <Keycource/>
+    </div>
+    <div>
+      
     </div>
     </>
   );

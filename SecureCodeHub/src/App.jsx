@@ -4,7 +4,10 @@ function App() {
 
   return (
     <>
-    <Cources Cname="Java Full Stack With DSA"/>
+      <div className>
+
+    <Cources/>
+      </div>
     </>
   )
 }
